@@ -21,5 +21,7 @@ from tasks import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name='home'),
-    path('signup/',views.signUp, name='signUp')
+    path('signup/',views.signUp, name='signUp'),
+    path('tasks/',views.tasks, name='tasks'),
+    
 ]
