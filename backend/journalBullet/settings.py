@@ -31,8 +31,9 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
+     "127.0.0.1",
     "http://127.0.0.1:8000",
+    "http://127.0.0.1:5173",
     "http://localhost:5173",
 ]
 
